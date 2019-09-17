@@ -33,9 +33,3 @@ Height does not matter
 Checking 10 to 14 is the same as checking 20 to 24.
 
 
-# Solution Idea
-We compute eggDrop(i,j) over and over again.
-Remember results in a table
-Allocate a 2-D table eggFloor that remembers the results; after
-computing s = eggDrop(i,j), remember s in a table.
-eggDrop [ i ] [ j ] = s ;
